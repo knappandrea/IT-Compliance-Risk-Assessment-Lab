@@ -7,6 +7,7 @@ Governance, Risk & Compliance (GRC) Simulation
 This project simulates the role of an IT Compliance or Governance, Risk & Compliance (GRC) Analyst within a small organization. The lab focuses on identifying security risks, evaluating compliance gaps, and developing security policies aligned with industry best practices.
 
 The objective of this lab was to apply risk assessment methodology, document security controls, and create foundational governance documentation similar to what is required in regulated industries such as healthcare and finance.
+
 🏢 Scenario
 
 A fictional healthcare organization (“ABC Health Services”) requested a basic IT risk assessment and compliance review to evaluate its security posture and ensure protection of sensitive data.
@@ -38,6 +39,7 @@ Develop security policy documentation
 Recommend mitigation strategies
 
 Align controls with industry best practices
+
 🛠 Frameworks & Concepts Referenced
 
 NIST Cybersecurity Framework
@@ -67,6 +69,7 @@ Email system
 Network router/firewall
 
 Backup storage
+
 ⚠️ Step 2: Threat & Vulnerability Identification
 
 Identified potential risks:
@@ -123,6 +126,7 @@ Enable centralized log monitoring
 Deploy regular patch management schedule
 
 Develop formal incident response plan
+
 📄 Step 5: Policy Development
 
 Created sample documentation including:
@@ -150,6 +154,7 @@ Preventative vs Detective Controls
 Administrative vs Technical Controls
 
 Governance Documentation
+
 📚 Key Takeaways
 
 Many organizations lack formalized documentation
