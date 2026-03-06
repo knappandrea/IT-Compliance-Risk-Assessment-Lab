@@ -158,10 +158,12 @@ Control Mapping to NIST Cybersecurity Framework
 Created sample documentation including:
 
 Access Control Policy
+
   Access to organizational systems must be restricted to authorized users and managed according to the principle of least privilege. All users must be assigned unique accounts, and administrative privileges shall only be granted to personnel with approved   administrative responsibilities. User permissions must be reviewed periodically to ensure access levels remain appropriate and aligned with job functions.
   
 
 Password Policy
+
   Minimum 12 characters with uppercase, lowercase, numbers, and special characters
 
   Change passwords every 90 days; cannot reuse the last 5
@@ -174,6 +176,7 @@ Password Policy
   
 
 Acceptable Use Policy
+
   All organizational systems, devices, and networks are for official business purposes only.
 
   Users must protect login credentials and not share accounts.
@@ -192,6 +195,7 @@ Violations may result in access restrictions or disciplinary action.
 
 
 Incident Response Outline
+
   Purpose:
     To define the process for detecting, reporting, and responding to security incidents to minimize impact and restore normal operations quickly.
 
@@ -230,6 +234,7 @@ Data Protection Policy
   
   
 User Provisioning & Deprovisioning Procedure
+
   Provisioning: 
 Access to systems and applications is granted based on job role and least privilege.
 
@@ -245,6 +250,7 @@ Access rights must be reviewed regularly to ensure compliance with least privile
 
 Periodic audits are conducted to verify active accounts and prevent unauthorized access.
 
+
 🔐 Security Principles Applied
 
 Defense in Depth
@@ -257,6 +263,7 @@ Administrative vs Technical Controls
 
 Governance Documentation
 
+
 📚 Key Takeaways
 
 Many organizations lack formalized documentation
@@ -268,6 +275,7 @@ Risk assessment must consider both technical and human factors
 Access management is one of the most critical compliance controls
 
 Structured onboarding/offboarding reduces insider risk
+
 
 🚀 Future Improvements
 
