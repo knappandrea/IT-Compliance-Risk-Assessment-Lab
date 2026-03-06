@@ -108,6 +108,7 @@ Risk: Lack of MFA
 Likelihood: Medium
 Impact: High
 Risk Level: High
+
 Risk Register
 
 | Risk ID | Risk Description                                                                                                             | Impact | Likelihood | Risk Level | Mitigation / Control Implemented                                                                                                           | Status    |
