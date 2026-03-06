@@ -1,100 +1,110 @@
 
-IT Compliance & Risk Assessment Lab
-Governance, Risk & Compliance (GRC) Simulation
+IT Compliance & Risk Assessment Lab | Governance, Risk & Compliance (GRC) Simulation
 
-📌 Project Overview
+Executive Summary
 
-This project simulates the role of an IT Compliance or Governance, Risk & Compliance (GRC) Analyst within a small organization. The lab focuses on identifying security risks, evaluating compliance gaps, and developing security policies aligned with industry best practices.
+This lab simulates the role of an IT Compliance or Governance, Risk & Compliance (GRC) Analyst for a small healthcare organization, “ABC Health Services.” The project demonstrates the practical application of IT governance, risk assessment, and compliance processes within an environment lacking formalized security controls.
 
-The objective of this lab was to apply risk assessment methodology, document security controls, and create foundational governance documentation similar to what is required in regulated industries such as healthcare and finance.
+The objectives of this lab were to identify vulnerabilities, evaluate compliance gaps, implement technical and administrative controls, and develop foundational governance documentation aligned with industry standards such as the NIST Cybersecurity Framework and HIPAA security concepts.
 
-🏢 Scenario
+Key outcomes include:
 
-A fictional healthcare organization (“ABC Health Services”) requested a basic IT risk assessment and compliance review to evaluate its security posture and ensure protection of sensitive data.
+  Conducting a structured risk assessment and developing a risk matrix.
 
-The organization:
+  Identifying technical and operational security gaps.
 
-Uses Windows endpoints
+  Implementing security controls mapped to NIST CSF functions and categories.
 
-Stores sensitive patient data
+  Creating essential policy documentation: Access Control, Password, Acceptable Use, Data Protection, Incident Response, and User Provisioning/Deprovisioning.
 
-Has 25 employees
+  Applying governance best practices to reduce operational risk, strengthen access management, and support compliance auditing.
 
-Has no formalized IT security policies
+  This lab bridges operational management expertise with technical GRC skills, providing a strong foundation for roles in IT governance, compliance, and cybersecurity risk management.
 
-Lacks structured access control procedures
+Project Overview
 
-🎯 Objectives
+Scenario:
+ABC Health Services, a small healthcare organization with 25 employees, requested a basic IT risk assessment and compliance review to evaluate its security posture and ensure the protection of sensitive patient data.
 
-Conduct a basic IT risk assessment
+Environment Highlights:
 
-Identify vulnerabilities and potential threats
+  Windows-based endpoints
 
-Evaluate impact and likelihood
+  No formalized IT security policies
 
-Create a risk matrix
+  No structured access control or onboarding/offboarding processes
 
-Develop security policy documentation
+  Sensitive patient data (PHI) stored locally
 
-Recommend mitigation strategies
+Lab Objectives:
 
-Align controls with industry best practices
+  Conduct a comprehensive IT risk assessment
 
+  Identify threats, vulnerabilities, and gaps
+
+  Evaluate impact and likelihood to prioritize risks
+
+  Create a risk matrix and document mitigation strategies
+
+  Develop core security policies and governance documentation
+
+  Align implemented controls with industry best practices
+  
 🛠 Frameworks & Concepts Referenced
 
-NIST Cybersecurity Framework
+  NIST Cybersecurity Framework
 
-CIA Triad (Confidentiality, Integrity, Availability)
+  CIA Triad (Confidentiality, Integrity, Availability)
 
-Least Privilege Principle
+  Least Privilege Principle
 
-Role-Based Access Control (RBAC)
+  Role-Based Access Control (RBAC)
 
-Basic HIPAA security concepts
+  Basic HIPAA security concepts
 
-Risk Management lifecycle
+  Risk Management lifecycle
 
 🔍 Step 1: Asset Identification
 
-Identified critical assets:
+  Identified critical assets:
 
-Domain Controller
+  Domain Controller
 
-Employee workstations
+  Employee workstations
 
-Patient data (PHI)
+  Patient data (PHI)
 
-Email system
+  Email system
 
-Network router/firewall
+  Network router/firewall
 
-Backup storage
+  Backup storage
 
 ⚠️ Step 2: Threat & Vulnerability Identification
 
-Identified potential risks:
+  Identified potential risks:
 
-Weak password policies
+  Weak password policies
 
-Excessive administrative privileges
+  Excessive administrative privileges
 
-No multi-factor authentication
+  No multi-factor authentication
 
-Unpatched systems
+  Unpatched systems
 
-Lack of centralized logging
+  Lack of centralized logging
 
-Inconsistent onboarding/offboarding processes
+  Inconsistent onboarding/offboarding processes
 
-No documented incident response plan
+  No documented incident response plan
 
 📊 Step 3: Risk Assessment Matrix
 
-Each risk was evaluated using:
+  Each risk was evaluated using:
 
-Likelihood (Low / Medium / High)
+  Likelihood (Low / Medium / High)
 
-Impact (Low / Medium / High)
+  Impact (Low / Medium / High)
 
 Overall Risk Rating
 
