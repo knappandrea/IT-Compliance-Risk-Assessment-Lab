@@ -108,6 +108,8 @@ Risk: Lack of MFA
 Likelihood: Medium
 Impact: High
 Risk Level: High
+Risk Register
+
 | Risk ID | Risk Description                                                                                                             | Impact | Likelihood | Risk Level | Mitigation / Control Implemented                                                                                                           | Status    |
 | ------- | ---------------------------------------------------------------------------------------------------------------------------- | ------ | ---------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------ | --------- |
 | R-01    | Weak password policies could allow attackers to guess or brute-force user credentials.                                       | High   | Medium     | High       | Enforced password complexity, minimum length, and expiration policies through Active Directory Group Policy.                               | Mitigated |
