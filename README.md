@@ -97,19 +97,7 @@ Likelihood (Low / Medium / High)
 Impact (Low / Medium / High)
 
 Overall Risk Rating
-Example:
 
-Risk: Weak Password Policy
-Likelihood: High
-Impact: High
-Risk Level: Critical
-
-Risk: Lack of MFA
-Likelihood: Medium
-Impact: High
-Risk Level: High
-
-Risk Register
 
 | Risk ID | Risk Description                                                                                                             | Impact | Likelihood | Risk Level | Mitigation / Control Implemented                                                                                                           | Status    |
 | ------- | ---------------------------------------------------------------------------------------------------------------------------- | ------ | ---------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------ | --------- |
@@ -123,21 +111,23 @@ Risk Register
 
 🛡 Step 4: Control Recommendations
 
-Recommended security controls:
 
-Enforce password complexity requirements
+Control Mapping Methodology
 
-Implement multi-factor authentication
+Security controls implemented during this lab were mapped to functions and categories from the NIST Cybersecurity Framework to demonstrate how technical security configurations support broader cybersecurity risk management practices.
 
-Apply least privilege access model
+Control Mapping to NIST Cybersecurity Framework
 
-Establish onboarding/offboarding access checklist
 
-Enable centralized log monitoring
+| Risk ID | Security Control Implemented                                                         | NIST CSF Function | NIST CSF Category                            | Implementation Evidence                                           |
+| ------- | ------------------------------------------------------------------------------------ | ----------------- | -------------------------------------------- | ----------------------------------------------------------------- |
+| R-01    | Enforced password complexity and minimum password length through Group Policy        | Protect           | PR.AC – Identity Management & Access Control | Screenshot of Domain Password Policy Configuration                |
+| R-02    | Applied least privilege by restricting standard users from administrative privileges | Protect           | PR.AC – Identity Management & Access Control | Screenshot showing administrative action denied for standard user |
+| R-03    | Hardened endpoint firewall by disabling non-essential inbound rules                  | Protect           | PR.IP – Protective Technology                | Screenshot of disabled inbound firewall rules                     |
+| R-04    | Disabled unnecessary Windows services to reduce attack surface                       | Protect           | PR.IP – Protective Technology                | Screenshot of disabled services in Services Manager               |
+| R-05    | Applied local security policy hardening on endpoint system                           | Protect           | PR.IP – Configuration Management             | Screenshot of Local Security Policy configuration                 |
+| R-06    | Verified domain authentication and DNS communication between systems                 | Detect            | DE.CM – Security Continuous Monitoring       | Screenshot of successful ping and nslookup validation             |
 
-Deploy regular patch management schedule
-
-Develop formal incident response plan
 
 📄 Step 5: Policy Development
 
