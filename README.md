@@ -108,6 +108,20 @@ Overall Risk Rating
 | R-05    | Lack of endpoint security controls could allow unauthorized changes to system configurations.                                | Medium | Low        | Low        | Applied local security policy hardening to enforce security settings and system protections.                                               | Mitigated |
 | R-06    | Improper network configuration could allow systems to operate without proper domain authentication and security enforcement. | Medium | Medium     | Medium     | Implemented proper domain connectivity and validated network communication through DNS resolution and domain authentication.               | Mitigated |
 
+Gap Analysis
+
+The environment was evaluated against common cybersecurity best practices aligned with the NIST Cybersecurity Framework. Several configuration and security control gaps were identified prior to implementing mitigation measures.
+
+| Control Area                    | Current State (Before Mitigation)                                            | Identified Gap                                                   | Risk Impact                                                           | Recommended Action                                              |
+| ------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------- |
+| Password Security               | Default password policies were in place                                      | Password complexity and minimum length requirements not enforced | Weak passwords could allow brute-force or credential guessing attacks | Implement strong password policies through Group Policy         |
+| Privileged Access Management    | Standard users could potentially attempt administrative actions              | Lack of strict least privilege enforcement                       | Unauthorized system changes or privilege escalation                   | Restrict administrative privileges to authorized accounts only  |
+| Firewall Configuration          | Multiple inbound firewall rules enabled by default                           | Non-essential services exposed through firewall                  | Increased attack surface for unauthorized network access              | Disable unnecessary inbound firewall rules                      |
+| Service Hardening               | Several Windows services enabled that were not required for system operation | Unnecessary services increase attack surface                     | Potential exploitation of vulnerable services                         | Disable non-essential services such as Remote Registry          |
+| Endpoint Security Configuration | Default local security policy settings                                       | Security policies not hardened for enterprise environments       | Reduced endpoint protection and increased risk of misconfiguration    | Apply security hardening through Local Security Policy          |
+| Network Configuration           | Network connectivity initially misconfigured between systems                 | Lack of proper DNS and domain communication configuration        | Systems unable to properly authenticate within the domain             | Configure proper DNS settings and validate network connectivity |
+
+
 
 🛡 Step 4: Control Recommendations
 
