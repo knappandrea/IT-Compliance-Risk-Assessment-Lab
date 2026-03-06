@@ -206,9 +206,9 @@ Lessons Learned – Analyze the incident, update policies, and improve controls.
 
   Reporting:
 
-    All incidents must be reported to IT/security immediately.
+   All incidents must be reported to IT/security immediately.
 
-    Document incident details including time, scope, and actions taken.
+Document incident details including time, scope, and actions taken.
 
 Data Protection Policy
   
