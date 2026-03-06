@@ -148,16 +148,88 @@ Control Mapping to NIST Cybersecurity Framework
 Created sample documentation including:
 
 Access Control Policy
+  Access to organizational systems must be restricted to authorized users and managed according to the principle of least privilege. All users must be assigned unique accounts, and administrative privileges shall only be granted to personnel with approved   administrative responsibilities. User permissions must be reviewed periodically to ensure access levels remain appropriate and aligned with job functions.
 
 Password Policy
+  Minimum 12 characters with uppercase, lowercase, numbers, and special characters
+
+  Change passwords every 90 days; cannot reuse the last 5
+
+  Accounts lock after 5 failed login attempts
+
+  Multi-Factor Authentication (MFA) required for remote and privileged accounts
+
+  Do not share or store passwords in plain text; use approved password managers
 
 Acceptable Use Policy
+  All organizational systems, devices, and networks are for official business purposes only.
+
+  Users must protect login credentials and not share accounts.
+
+  No unauthorized software or hardware may be installed on company devices.
+
+  Prohibited activities include:
+
+    Accessing inappropriate or illegal content
+
+    Attempting to bypass security controls
+
+    Using company resources for personal financial gain or political purposes
+
+    Violations may result in access restrictions or disciplinary action.
 
 Incident Response Outline
+  Purpose:
+    To define the process for detecting, reporting, and responding to security incidents to minimize impact and restore normal operations quickly.
+
+  Steps:
+
+    Identification – Detect and confirm potential security incidents.
+
+    Containment – Limit the scope and impact of the incident.
+
+    Eradication – Remove the root cause and affected systems or accounts.
+
+    Recovery – Restore systems to normal operations and verify functionality.
+
+    Lessons Learned – Analyze the incident, update policies, and improve controls.
+
+  Reporting:
+
+    All incidents must be reported to IT/security immediately.
+
+    Document incident details including time, scope, and actions taken.
 
 Data Protection Policy
+  
+  All sensitive and confidential data must be stored securely and accessed only by authorized personnel.
 
+  Data must be encrypted in transit and at rest whenever possible.
+
+  Regular backups must be maintained to prevent data loss.
+
+  Personal or customer data must be handled in accordance with privacy regulations (e.g., HIPAA, GDPR).
+
+  Unauthorized sharing, copying, or disclosure of data is prohibited.
+
+  Employees must report data breaches or suspected incidents immediately.
+  
 User Provisioning & Deprovisioning Procedure
+  Provisioning:
+
+    Access to systems and applications is granted based on job role and least privilege.
+
+    All new accounts must be approved by management and documented.
+
+  Deprovisioning:
+
+    Accounts for departing employees, contractors, or role changes must be disabled or removed immediately.
+
+    Access rights must be reviewed regularly to ensure compliance with least privilege principles.
+
+  Account Reviews:
+
+    Periodic audits are conducted to verify active accounts and prevent unauthorized access.
 
 🔐 Security Principles Applied
 
