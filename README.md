@@ -225,8 +225,7 @@ Data Protection Policy
   Employees must report data breaches or suspected incidents immediately.
   
 User Provisioning & Deprovisioning Procedure
-  Provisioning:
-
+  Provisioning: 
     Access to systems and applications is granted based on job role and least privilege.
 
     All new accounts must be approved by management and documented.
