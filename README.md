@@ -159,6 +159,7 @@ Created sample documentation including:
 
 Access Control Policy
   Access to organizational systems must be restricted to authorized users and managed according to the principle of least privilege. All users must be assigned unique accounts, and administrative privileges shall only be granted to personnel with approved   administrative responsibilities. User permissions must be reviewed periodically to ensure access levels remain appropriate and aligned with job functions.
+  
 
 Password Policy
   Minimum 12 characters with uppercase, lowercase, numbers, and special characters
@@ -170,6 +171,7 @@ Password Policy
   Multi-Factor Authentication (MFA) required for remote and privileged accounts
 
   Do not share or store passwords in plain text; use approved password managers
+  
 
 Acceptable Use Policy
   All organizational systems, devices, and networks are for official business purposes only.
@@ -187,6 +189,7 @@ Attempting to bypass security controls
 Using company resources for personal financial gain or political purposes
 
 Violations may result in access restrictions or disciplinary action.
+
 
 Incident Response Outline
   Purpose:
@@ -210,6 +213,7 @@ Lessons Learned – Analyze the incident, update policies, and improve controls.
 
 Document incident details including time, scope, and actions taken.
 
+
 Data Protection Policy
   
   All sensitive and confidential data must be stored securely and accessed only by authorized personnel.
@@ -224,11 +228,12 @@ Data Protection Policy
 
   Employees must report data breaches or suspected incidents immediately.
   
+  
 User Provisioning & Deprovisioning Procedure
   Provisioning: 
-    Access to systems and applications is granted based on job role and least privilege.
+Access to systems and applications is granted based on job role and least privilege.
 
-    All new accounts must be approved by management and documented.
+All new accounts must be approved by management and documented.
 
   Deprovisioning:
 
