@@ -194,15 +194,15 @@ Incident Response Outline
 
   Steps:
 
-    Identification – Detect and confirm potential security incidents.
+Identification – Detect and confirm potential security incidents.
 
-    Containment – Limit the scope and impact of the incident.
+Containment – Limit the scope and impact of the incident.
 
-    Eradication – Remove the root cause and affected systems or accounts.
+Eradication – Remove the root cause and affected systems or accounts.
 
-    Recovery – Restore systems to normal operations and verify functionality.
+Recovery – Restore systems to normal operations and verify functionality.
 
-    Lessons Learned – Analyze the incident, update policies, and improve controls.
+Lessons Learned – Analyze the incident, update policies, and improve controls.
 
   Reporting:
 
