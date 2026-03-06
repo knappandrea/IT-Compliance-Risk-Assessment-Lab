@@ -180,13 +180,13 @@ Acceptable Use Policy
 
   Prohibited activities include:
 
-    Accessing inappropriate or illegal content
+Accessing inappropriate or illegal content
 
-    Attempting to bypass security controls
+Attempting to bypass security controls
 
-    Using company resources for personal financial gain or political purposes
+Using company resources for personal financial gain or political purposes
 
-    Violations may result in access restrictions or disciplinary action.
+Violations may result in access restrictions or disciplinary action.
 
 Incident Response Outline
   Purpose:
