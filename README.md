@@ -237,13 +237,13 @@ All new accounts must be approved by management and documented.
 
   Deprovisioning:
 
-    Accounts for departing employees, contractors, or role changes must be disabled or removed immediately.
+Accounts for departing employees, contractors, or role changes must be disabled or removed immediately.
 
-    Access rights must be reviewed regularly to ensure compliance with least privilege principles.
+Access rights must be reviewed regularly to ensure compliance with least privilege principles.
 
   Account Reviews:
 
-    Periodic audits are conducted to verify active accounts and prevent unauthorized access.
+Periodic audits are conducted to verify active accounts and prevent unauthorized access.
 
 🔐 Security Principles Applied
 
