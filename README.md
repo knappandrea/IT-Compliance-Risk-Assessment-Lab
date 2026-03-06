@@ -108,6 +108,15 @@ Risk: Lack of MFA
 Likelihood: Medium
 Impact: High
 Risk Level: High
+| Risk ID | Risk Description                                                                                                             | Impact | Likelihood | Risk Level | Mitigation / Control Implemented                                                                                                           | Status    |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------- | ------ | ---------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------ | --------- |
+| R-01    | Weak password policies could allow attackers to guess or brute-force user credentials.                                       | High   | Medium     | High       | Enforced password complexity, minimum length, and expiration policies through Active Directory Group Policy.                               | Mitigated |
+| R-02    | Excessive user privileges could allow standard users to perform administrative actions or modify system configurations.      | High   | Medium     | High       | Implemented least privilege by restricting administrative rights and validating that standard users cannot perform administrative actions. | Mitigated |
+| R-03    | Unrestricted inbound firewall rules could allow unauthorized network access to the endpoint.                                 | Medium | Medium     | Medium     | Reviewed inbound firewall rules and disabled unnecessary services such as Remote Assistance and consumer networking services.              | Mitigated |
+| R-04    | Unnecessary Windows services running in the background could increase the system’s attack surface.                           | Medium | Medium     | Medium     | Disabled non-essential services such as Remote Registry and Routing and Remote Access.                                                     | Mitigated |
+| R-05    | Lack of endpoint security controls could allow unauthorized changes to system configurations.                                | Medium | Low        | Low        | Applied local security policy hardening to enforce security settings and system protections.                                               | Mitigated |
+| R-06    | Improper network configuration could allow systems to operate without proper domain authentication and security enforcement. | Medium | Medium     | Medium     | Implemented proper domain connectivity and validated network communication through DNS resolution and domain authentication.               | Mitigated |
+
 
 🛡 Step 4: Control Recommendations
 
